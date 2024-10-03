@@ -1,0 +1,129 @@
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerleft .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footerleft .logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footerleft .logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footerleft .socialicons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+.footerleft .socialicons a img {
+    
+    transition: opacity 0.3s;
+}
+
+.footerleft .socialicons a img:hover {
+    opacity: 0.7;
+}
+
+.footerright h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footerright ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerright ul li {
+    margin-bottom: 10px;
+}
+
+.footerright ul li a {
+    text-decoration: none;
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.footerright ul li a:hover {
+    color: #fff;
+}
+
+/* Footer Bottom */
+.footerbottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footerbottom p {
+    color: #aaa;
+}
+
+.footerbottom .legal-links a {
+    margin-left: 20px;
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footerbottom .legallinks a:hover {
+    color: #fff;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footercontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerright {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footerbottom {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footerbottom .legallinks a {
+        margin: 10px 0;
+    }
+}

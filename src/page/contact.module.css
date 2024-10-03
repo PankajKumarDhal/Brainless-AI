@@ -1,0 +1,102 @@
+.contactcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #0e1925;
+  color: white;
+}
+
+.contactdetails {
+  width: 45%;
+  /* width: 50%; */
+  background-color: #1b3450;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contactdetails h2,
+.getintouch h2 {
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.contactdetails p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.contactinfo {
+  margin-bottom: 15px;
+  gap: 1rem;
+}
+.contactinfo p {
+  color: aqua;
+  font-size: larger;
+}
+.info {
+  margin-top: 5rem;
+}
+
+.contactinfo p {
+  font-weight: bold;
+}
+
+.contactquote {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-style: italic;
+  font-size: 1.2rem;
+
+}
+.contactquote p{
+    color: aqua;
+    
+}
+
+.getintouch {
+  width: 50%;
+  background-color: #13202f;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.formgroup input,
+.formgroup select,
+.formgroup textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #0e1925;
+  border: 1px solid #3a4b5c;
+  border-radius: 5px;
+  color: white;
+}
+
+.formgroup textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.sendmessagebtn {
+  background-color: #1bc47d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sendmessagebtn:hover {
+  background-color: #15a66d;
+}
